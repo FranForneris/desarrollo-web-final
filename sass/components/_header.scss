@@ -1,0 +1,15 @@
+header{
+    .navbar-light{
+        background-color: #1f3086;
+            .navbar-nav{
+            .nav-link{
+                color: whitesmoke;
+                font-size: 30px;
+                &:hover{
+                    color:#ffb936;
+                    transform: scale(1.2,1.2);
+                }
+            }
+        }
+    } 
+}   

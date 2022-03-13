@@ -1,0 +1,30 @@
+footer{
+    background-color: #1f3086;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .iconos{
+        padding: 6px;
+    }
+    .miniMenu{
+        ul{
+            list-style-type: none;
+            li{
+                &:hover{
+                    transform: scale(1.2,1.2);
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+
+                    &:hover{                        
+                        color: #ffb936;
+                    }
+                }
+            }
+        }
+    }    
+}

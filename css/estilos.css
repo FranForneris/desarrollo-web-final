@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(90deg, #7dfaff 0%, #868eff 100%); }
+
+p {
+  font-size: 35px; }
+
+.formulario {
+  width: 300px; }
+
+/* uso de extend */
+h1 {
+  font-size: 40px;
+  font-weight: bold; }
+
+h1 {
+  text-align: center; }
+
+header .navbar-light {
+  background-color: #1f3086; }
+  header .navbar-light .navbar-nav .nav-link {
+    color: whitesmoke;
+    font-size: 30px; }
+    header .navbar-light .navbar-nav .nav-link:hover {
+      color: #ffb936;
+      transform: scale(1.2, 1.2); }
+
+footer {
+  background-color: #1f3086;
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  footer .iconos {
+    padding: 6px; }
+  footer .miniMenu ul {
+    list-style-type: none; }
+    footer .miniMenu ul li:hover {
+      transform: scale(1.2, 1.2); }
+    footer .miniMenu ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px; }
+      footer .miniMenu ul li a:hover {
+        color: #ffb936; }
+
+.container main .contenedorCarta .card .card-body .btn {
+  width: 100px; }

@@ -1,0 +1,17 @@
+$anchoBoton: 150;
+
+.container{
+    main{
+        .contenedorCarta{
+            .card{
+                .card-body{
+                    .btn{
+                        width: $anchoBoton - 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+    
