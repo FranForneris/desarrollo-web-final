@@ -7,6 +7,9 @@ p {
 .formulario {
   width: 300px; }
 
+/* colores principales */
+/* uso de mapas */
+/* estilo tipografia */
 /* uso de extend */
 h1 {
   font-size: 40px;
@@ -14,6 +17,10 @@ h1 {
 
 h1 {
   text-align: center; }
+
+/* uso de mixing */
+.card-text {
+  text-decoration: underline; }
 
 header .navbar-light {
   background-color: #1f3086; }

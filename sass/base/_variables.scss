@@ -1,9 +1,23 @@
+/* colores principales */
+
+
+
+/* uso de mapas */
+
+
+
+/* estilo tipografia */
+
+
+
 
 /* uso de extend */
 
 %titulos{
     font-size: 40px;
-    font-weight: bold;          
+    font-weight: bold;
+    
+    
 }
 
 h1{
@@ -11,3 +25,12 @@ h1{
     @extend %titulos;
 }
 
+/* uso de mixing */
+
+@mixin texto ($subrayado) {
+    text-decoration: $subrayado
+}
+
+.card-text{
+    @include texto(underline);
+}
